@@ -16,6 +16,7 @@ public class App {
         System.out.println("g) Salir");
         char opc = lector.next().charAt(0);
         switch (opc) {
+        case 'A':
             case 'a':
                 System.out.println("1) Sumar");
                 System.out.println("Ingrese a: ");
@@ -26,6 +27,7 @@ public class App {
                 System.out.println("La suma de: " + valorA  + " + " + valorB + " es: " + resultado);
                 
                 break;
+        case 'B':
             case 'b':
                 System.out.println("2) Restar");
                 System.out.println("Ingrese a: ");
@@ -36,6 +38,7 @@ public class App {
                 System.out.println("La diferencia de: " + valorA  + " - " + valorB + " es: " + resultado);
 
                 break;
+        case 'C':
             case 'c':
                 System.out.println("3) Multiplicar");
                 System.out.println("Ingrese a: ");
@@ -46,6 +49,7 @@ public class App {
                 System.out.println("El producto de: " + valorA  + " * " + valorB + " es: " + resultado);
 
                 break;
+        case 'D':
             case 'd':
                 System.out.println("4) Dividir");
                 System.out.println("Ingrese a: ");
@@ -59,7 +63,7 @@ public class App {
                     System.out.println("El producto de: " + valorA  + " / " + valorB + " es: " + cociente);
                 }
                 break;
-            
+            case 'E':
                 case 'e':
                 System.out.println("5) Potencia");
                 System.out.println("Ingrese a: ");
@@ -69,6 +73,7 @@ public class App {
                 double potencia = Math.pow(valorA, valorB);
                 System.out.println("Su resultado e: " + potencia);
                 break;
+            case 'F':
                 case 'f':
                 System.out.println("6) Raiz Cuadrada");
                 System.out.println("Ingrese el valor: ");
